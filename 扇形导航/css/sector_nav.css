@@ -1,0 +1,52 @@
+#wrap {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    left: 300px;
+    top: 250px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+
+/*图片模型*/
+#wrap .inner .img_mod, #wrap .home {
+    position: absolute;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #aaa;
+    background: #fff;
+    transform: rotate(0deg);
+
+    /*设置菜单不可被选中*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    opacity: 1;
+}
+
+#wrap .home {
+    padding: 15px;
+    top: -5px;
+    left: -5px;
+}
+
+#wrap .inner img, #wrap .home img {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+
